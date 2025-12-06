@@ -78,7 +78,18 @@
   font-family: var(--font-accent);
   font-size: 14px;
   text-transform: uppercase;
-  text-shadow: 0 0 2px white;
+}
+
+@supports (text-stroke: 1px white ) {
+  .watermark {
+    text-stroke: 1px white;
+  }
+}
+
+@supports (-webkit-text-stroke: 1px white) {
+  .watermark {
+    -webkit-text-stroke: 1px white;
+  }
 }
 
 .card__image {
