@@ -1,1 +1,1 @@
-https://igoral5.github.io/zakrivayuschiy-teg-f/
+https://github.com/igoral5/zakrivayuschiy-teg-f
