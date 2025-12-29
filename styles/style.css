@@ -148,16 +148,16 @@
   vertical-align: middle;
 }
 
-.sepia-saturate {
-  filter: sepia(0.5) saturate(0.5);
+.grayscale {
+  filter: grayscale(80%);
 }
 
 .saturate {
-  filter: saturate(5);
+  filter: saturate(400%);
 }
 
 .rotate {
-  filter: hue-rotate(45deg);
+  filter: hue-rotate(30deg);
 }
 
 .invert {
@@ -165,15 +165,15 @@
 }
 
 .sepia {
-  filter: sepia(0.8);
+  filter: sepia(90%);
 }
 
 .blur {
-  filter: blur(10px);
+  filter: blur(20px);
 }
 
-.rotate-blur {
-  filter: hue-rotate(90deg) brightness(1.2) contrast(0.5) blur(2px);
+.combine {
+  filter: saturate(200%) invert(30%) hue-rotate(90deg) blur(2px) grayscale(10%);
 }
 
 .footer__button {
